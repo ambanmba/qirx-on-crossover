@@ -40,7 +40,7 @@ Although it may work with other bottle configurations, the best is to select a n
 ![alt text](img/Image7.png "Figure 7")
 
 ## Step 8 - Installation begins
-If you are running some anti-virus software, it may complain about some of the files in the bottle. This is a known issue, the files are not malicious. Not all anti-virus software will do this.
+If you are running some anti-virus software, it may complain about some of the files in the bottle. This is a known issue, the files are not malicious. Not all anti-virus software will do this. Refer: https://www.codeweavers.com/support/wiki/mac/mactutorial/bitdefender
 ![alt text](img/Image8.png "Figure 8")
 
 ## Step 9 - Click Next> at the first Wizard
