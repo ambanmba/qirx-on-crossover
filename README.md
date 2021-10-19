@@ -126,7 +126,7 @@ You will be prompted to start your rtl-tcp server. This step sometimes doesn't w
 You will see this failure, but I've always been able to safely ignore it. Click OK.
 ![alt text](img/Image29.png "Figure 29")
   
-## Step 30 - This error is also normal (fix it by installing the database in Step XX)
+## Step 30 - This error is also normal (fix it by installing the database starting in Step 32)
 Click past this error message
 ![alt text](img/Image30.png "Figure 30")
  
@@ -134,5 +134,16 @@ Click past this error message
 If you have DAB reception in your area, you should be able to see the channels available by selecting the right ensemble (in my case 9C, which you can select next to the purple DAB+ box). In these instructions I've used the fairly anemic low end Mac Mini (Core i3) and it works great. The updating of the graphics can be a bit slow on this i3 and if you have a better screen you can expand everything so it looks nicer. The Macbook Air M1 that I tried this on ran it much better and had a more responsive set of graphics.
 ![alt text](img/Image32.png "Figure 32")
  
+## Step 32 - Fix the database error in DAB mode - Part 1
+If you will be using DAB mode, you should install the database component which involves a few more steps. You will need to download QIRX_Database.zip from the QIRX web site, unzip it and then copy the unzipped folder to `/Users/<youruser>/Library/Application Support/CrossOver/Bottles/QIRX/drive_c/users/crossover/Desktop` (refer to steps 24/25 to get to this folder if you can't remember). 
+![alt text](img/Image34.png "Figure 34")
 
+## Step 33 - Fix the database error in DAB mode - Part 2
+Go back to the CrossOver screen and Run Command (just like in Step 17)
+![alt text](img/Image35.png "Figure 35")
 
+## Step 34 - Fix the database error in DAB mode - Part 3
+Select `/Users/<youruser>/Library/Application Support/CrossOver/Bottles/QIRX/drive_c/users/crossover/Desktop/install.bat` to run. This should run quickly with no other visible interaction. The next time you load QIRX you won't get the error you saw in Step 30
+![alt text](img/Image35.png "Figure 35")
+
+That should be it! Now you can enjoy QIRX on your Mac!
