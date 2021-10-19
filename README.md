@@ -87,7 +87,52 @@ You will next see QIRX start up, but with just the default empty configuration
 ![alt text](img/Image19.png "Figure 19")
 
 ## Step 20 - The Second Little Problem!
-Click on the Gear at the top of the menu which will open up the Settings screen. For some reason this screen doesn't render properly and you can either end up with a completely black menu, a flashing menu or a menu missing the OK button. If it works, GREAT, if not, continue to Step XX to edit the config file manually. In my case, I entered the information for my rtl-sdr server in row 1. What you cannot see is that some of those columns are meant to have titles, the one to the left of Autostop is Autostart. I have them both disabled. The first checkbox after RTL-SDR determines whether that radio is enabled or not. For simplicity, enter the IP address and Port of your rtl-sdr server where I have done so and click OK. You will also get that QIRX Configuration notice, just click OK.
+Click on the Gear at the top of the menu which will open up the Settings screen. For some reason this screen doesn't render properly and you can either end up with a completely black menu, a flashing menu or a menu missing the OK button. If it works, GREAT, if not, continue to Step 25 to edit the config file manually. In my case, I entered the information for my rtl-sdr server in row 1. What you cannot see is that some of those columns are meant to have titles, the one to the left of Autostop is Autostart. I have them both disabled. The first checkbox after RTL-SDR determines whether that radio is enabled or not. For simplicity, enter the IP address and Port of your rtl-sdr server where I have done so and click OK. You will also get that QIRX Configuration notice, just click OK.
 ![alt text](img/Image20.png "Figure 20")
   
+## Step 21 - Writing the Configuration file
+If you were successful with Step 20, you will see the following screen. Click OK. If not, continue on and we will edit the config file manually.
+![alt text](img/Image21.png "Figure 21")
   
+## Step 22 - Exit out of QIRX from step 21
+You should see the icon in the CrossOver window. If not, you forgot to click on "Save Command as a Launcher" in step 17.
+![alt text](img/Image22.png "Figure 22")
+  
+## Step 23 - Manually Edit the Config File - Part 1
+If you click on the bottles icon on the top left of the CrossOver screen you will see a side window. You can then click on QIRX and it will give you several options.
+![alt text](img/Image23.png "Figure 23")
+  
+## Step 24 - Manually Edit the Config File - Part 2
+Right-click on QIRX and you can select "Open C: Drive" which will open the fake C: Drive that is part of the "bottle" 
+![alt text](img/Image24.png "Figure 24")
+  
+## Step 25 - Manually Edit the Config File - Part 3
+When you click "Open C: Drive" you will be taken to the full hierarchy of fake windows folders that tricks QIRX into thinking it's on a Windows machine. Navigate to `/Users/<youruser>/Library/Application Support/CrossOver/Bottles/QIRX/drive_c/users/crossover/Local Settings/Application Data/qirx3/qirx3.config` and edit that file. Here you can manually set all of the items that were potentially blocked on Step 20. Once everything is configured to match your configuration, you can go back to the CrossOver window. Double click on the QIRX icon as seen in Step 22.
+![alt text](img/Image25.png "Figure 25")
+
+## Step 26 - Reload QIRX
+Depending on how you manually edited the config file in Step 25 your screen may or may not look exactly like below. 
+![alt text](img/Image26.png "Figure 26")
+
+## Step 27 - Select the band
+You can select the band and encoding scheme on the top right. For the sake of these instructions, we will select DAB. Then click on the BLUE triangle next to DAB.
+![alt text](img/Image27.png "Figure 27")
+
+## Step 28 - Start your rtl-tcp server.
+You will be prompted to start your rtl-tcp server. This step sometimes doesn't work. If not, simply exit CrossOver and reload it to get back to this step. In the cases where it doesn't work, it always seems to work on the 2nd try.
+![alt text](img/Image28.png "Figure 28")
+
+## Step 29 - This error always seems to happen!
+You will see this failure, but I've always been able to safely ignore it. Click OK.
+![alt text](img/Image29.png "Figure 29")
+  
+## Step 30 - This error is also normal (fix it by installing the database in Step XX)
+Click past this error message
+![alt text](img/Image30.png "Figure 30")
+ 
+## Step 31 - Enjoy the music!
+If you have DAB reception in your area, you should be able to see the channels available by selecting the right ensemble (in my case 9C, which you can select next to the purple DAB+ box). In these instructions I've used the fairly anemic low end Mac Mini (Core i3) and it works great. The updating of the graphics can be a bit slow on this i3 and if you have a better screen you can expand everything so it looks nicer. The Macbook Air M1 that I tried this on ran it much better and had a more responsive set of graphics.
+![alt text](img/Image32.png "Figure 32")
+ 
+
+
