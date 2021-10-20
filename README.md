@@ -116,8 +116,8 @@ When you click "Open C: Drive" you will be taken to the full hierarchy of fake w
 Depending on how you manually edited the config file in Step 25 your screen may or may not look exactly like below. 
 ![alt text](img/Image26.png "Figure 26")
 
-## Step 27 - Select the band
-You can select the band and encoding scheme on the top right. For the sake of these instructions, we will select DAB. Then click on the BLUE triangle next to DAB.
+## Step 27 - Select the Demodulator / Decoder
+You can select the demodulator (or for ADS-B or DAB the decoder) and encoding scheme on the top right. For the sake of these instructions, we will select DAB. Then click on the BLUE triangle next to DAB.
 ![alt text](img/Image27.png "Figure 27")
 
 ## Step 28 - Start your rtl-tcp server.
