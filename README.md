@@ -56,6 +56,7 @@ Click Next >
 
 ## Step 12 - Create Desktop Icon
 Click Next >
+
 The author of QIRX has advised that this step will be removed in future releases as the check box is redundant. Refer: https://github.com/softsyst/qirx_issues/issues/21
 ![alt text](img/Image12.png "Figure 12")
 
@@ -84,7 +85,7 @@ The first time you run `qirx.exe` you will be prompted to create a default confi
 ![alt text](img/Image18.png "Figure 18")
 
 ## Step 19 - It Works!
-You will next see QIRX start up, but with just the default empty configuration
+You will next see QIRX start up, but with the default configuration as defined by the developer of QIRX (refer to the documentation on https://qirx.softsyst.com/QIRXSetup3 which explains this and much more). Also of note is the fact that by manually adding a command line parameter, one can specify a custom config directory. 
 ![alt text](img/Image19.png "Figure 19")
 
 ## Step 20 - The Second Little Problem!
