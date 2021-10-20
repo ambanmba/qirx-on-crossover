@@ -113,7 +113,7 @@ When you click "Open C: Drive" you will be taken to the full hierarchy of fake w
 ![alt text](img/Image25.png "Figure 25")
 
 ## Step 26 - Reload QIRX
-Depending on how you manually edited the config file in Step 25 your screen may or may not look exactly like below. I have attached my sample [qirx3.config](https://github.com/ambanmba/qirx-on-crossover/blob/main/qirx3.config) file to this repository. It's in JSON format and if you look at lines 31..55 you can see how each device is configured. In this case my first device is active (line 32) while the other two devices are disabled (on lines 57 and 82). The demodulator settings are configured between lines 118 and 162. For example, in Australia we only use ensembles 9A,9B and 9C so I've edited lines 112 and 115 to only display those. The other settings are fairly self-explanatory once you undestrand the structure of the file.
+Depending on how you manually edited the config file in Step 25 your screen may or may not look exactly like below. I have attached my sample [qirx3.config](https://github.com/ambanmba/qirx-on-crossover/blob/main/qirx3.config) file to this repository. It's in JSON format and if you look at lines 31..55 you can see how each device is configured. In this case my first device is active (line 32) while the other two devices are disabled (on lines 57 and 82). The demodulator settings are configured between lines 118 and 162. For example, in Australia we only use ensembles 9A,9B and 9C so I've edited lines 112 and 115 to only display those. The other settings are fairly self-explanatory once you understand the structure of the file.
 ![alt text](img/Image26.png "Figure 26")
 
 ## Step 27 - Select the Demodulator / Decoder
