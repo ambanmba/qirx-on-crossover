@@ -56,6 +56,7 @@ Click Next >
 
 ## Step 12 - Create Desktop Icon
 Click Next >
+The author of QIRX has advised that this step will be removed in future releases as the check box is redundant. Refer: https://github.com/softsyst/qirx_issues/issues/21
 ![alt text](img/Image12.png "Figure 12")
 
 ## Step 13 - Confirm Installation
